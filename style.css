@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Background video */
+.background-video {
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+}
+
+.content {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: #ffffff;
+}
+
+/* Header */
+.header {
+    background-color: #1D1D33;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    font-weight: bold;
+    font-size: 3em;
+    margin: 0;
+}
+
+/* Profile Picture */
+.profile-picture {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile-picture img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+}
+
+/* Introduction */
+.intro {
+    text-align: justify;
+    background-color: rgba(123, 123, 143, 0.8);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.intro p {
+    font-size: 1.2em;
+}
+
+/* Skills */
+.skills {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.skills h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Personal Details, Educational Qualifications, Contact */
+.personal-details, .education, .contact {
+    background-color: #A6A6F4;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.personal-details h2, .education h2, .contact h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.personal-details ul, .education ul, .contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.personal-details li, .education li, .contact li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #0B0B0B;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    color: #ffffff;
+}
+
+footer p {
+    margin: 0;
+}
